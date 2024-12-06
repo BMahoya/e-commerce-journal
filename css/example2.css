@@ -1,0 +1,90 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px; /* To prevent content being hidden behind fixed navbar */
+}
+
+/* Navbar Styling */
+.navbar {
+    padding: 0.8rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Ensure uniform background color */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-brand img.logo {
+    max-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.nav-item .nav-link {
+    padding: 8px 15px;
+    color: #333;
+}
+
+.nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.archive {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-filter .form-control {
+    margin-bottom: 15px;
+}
+
+.article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.article h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
